@@ -6,4 +6,107 @@ bash-3.2$ 1
 bash: 1: command not found
 bash-3.2$ start
 bash: start: command not found
-bash-3.2$ co[K[K
+bash-3.2$ co[K[Kgit add -A
+bash-3.2$ git commit -m "fixing things for heroju[K[Kku"
+[master 40df4bc] fixing things for heroku
+ 1 file changed, 9 insertions(+)
+ create mode 100644 start
+bash-3.2$ git push
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 435 bytes | 435.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/spt3gntlmn/Test.git
+   f490a7f..40df4bc  master -> master
+bash-3.2$ start
+bash: start: command not found
+bash-3.2$ less start
+[?1049h[?1h=Script started on Mon Mar 12 21:20:38 2018
+[7mESC[27m[?1034hbash-3.2$ less 
+Missing filename ("less --help" for help)
+bash-3.2$ [7mESC[27m[K:
+bash-3.2$ 1
+bash: 1: command not found
+bash-3.2$ [7m^G[27mstart
+bash: start: command not found
+bash-3.2$ c[7mESC[27m[[7mESC[27m[Kgit add -A
+bash-3.2$ git commit -m "fixing things for heroj[7mESC[27m[[7mESC[27m[Kku"
+[master 40df4bc] fixing things for heroku
+ 1 file changed, 9 insertions(+)
+ create mode 100644 start
+bash-3.2$ git push
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   [7m^M[27mCompressing objects:  66% (2/3)   [7m^M[27mCompressing objects: 100% (3/3)   [7m^M[27mCompressi ng objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   [7m^M[27mWriting objects:  66% (2/3)   [7m^M[27mWriting objects: 100% (3/3)   [7m^M[27mWriting objects: 100%  (3/3), 435 bytes | 435.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [7mESC[27m[K[7m^M[27mremote: Resolving deltas: 100% (1/1)   [7mESC[27m[K[7m^M[27mremote: Resolving deltas:  100% (1/1), completed with 1 local object.[7mESC[27m[K
+To https://github.com/spt3gntlmn/Test.git
+   f490a7f..40df4bc  master -> master
+bash-3.2$ 
+[7mstart (END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K [K::[Kqq[K[?1l>[?1049lbash-3.2$ git push heru[Koky[Ku makster
+error: src refspec makster does not match any.
+error: failed to push some refs to 'https://git.heroku.com/young-ocean-75512.git'
+bash-3.2$ git push heroku master
+Counting objects: 14, done.
+Delta compression using up to 8 threads.
+Compressing objects:   8% (1/12)   Compressing objects:  16% (2/12)   Compressing objects:  25% (3/12)   Compressing objects:  33% (4/12)   Compressing objects:  41% (5/12)   Compressing objects:  50% (6/12)   Compressing objects:  58% (7/12)   Compressing objects:  66% (8/12)   Compressing objects:  75% (9/12)   Compressing objects:  83% (10/12)   Compressing objects:  91% (11/12)   Compressing objects: 100% (12/12)   Compressing objects: 100% (12/12), done.
+Writing objects:   7% (1/14)   Writing objects:  14% (2/14)   Writing objects:  21% (3/14)   Writing objects:  28% (4/14)   Writing objects:  35% (5/14)   Writing objects:  42% (6/14)   Writing objects:  57% (8/14)   Writing objects:  64% (9/14)   Writing objects:  71% (10/14)   Writing objects:  78% (11/14)   Writing objects:  85% (12/14)   Writing objects:  92% (13/14)   Writing objects: 100% (14/14)   Writing objects: 100% (14/14), 8.00 KiB | 4.00 MiB/s, done.
+Total 14 (delta 2), reused 0 (delta 0)
+remote: Compressing source files... done.[K
+remote: Building source:[K
+remote: 
+remote: -----> Node.js app detected[K
+remote: 
+remote: -----> Creating runtime environment[K
+remote:        [K
+remote:        NPM_CONFIG_LOGLEVEL=error[K
+remote:        NODE_VERBOSE=false[K
+remote:        NODE_ENV=production[K
+remote:        NODE_MODULES_CACHE=true[K
+remote: 
+remote: -----> Installing binaries[K
+remote:        engines.node (package.json):  unspecified[K
+remote:        engines.npm (package.json):   unspecified (use default)[K
+remote:        [K
+remote:        Resolving node version 8.x...[K
+remote:        Downloading and installing node 8.10.0...[K
+remote:        Using default npm version: 5.6.0[K
+remote: 
+remote: -----> Restoring cache[K
+remote:        Skipping cache restore (not-found)[K
+remote: 
+remote: -----> Building dependencies[K
+remote:        Installing node modules (package.json + package-lock)[K
+remote:        added 50 packages in 1.366s[K
+remote: 
+remote: -----> Caching build[K
+remote:        Clearing previous node cache[K
+remote:        Saving 2 cacheDirectories (default):[K
+remote:        - node_modules[K
+remote:        - bower_components (nothing to cache)[K
+remote: 
+remote: -----> Pruning devDependencies[K
+remote:        Skipping because npm 5.6.0 sometimes fails when running 'npm prune' due to a known issue[K
+remote:        https://github.com/npm/npm/issues/19356[K
+remote:        [K
+remote:        You can silence this warning by updating to at least npm 5.7.1 in your package.json[K
+remote:        https://devcenter.heroku.com/articles/nodejs-support#specifying-an-npm-version[K
+remote: 
+remote: -----> Build succeeded![K
+remote: -----> Discovering process types[K
+remote:        Procfile declares types     -> (none)[K
+remote:        Default types for buildpack -> web[K
+remote: 
+remote: -----> Compressing...[K
+remote:        Done: 17.7M[K
+remote: -----> Launching...[K
+remote:        Released v3[K
+remote:        https://young-ocean-75512.herokuapp.com/ deployed to Heroku[K
+remote: 
+remote: Verifying deploy... done.[K
+To https://git.heroku.com/young-ocean-75512.git
+ * [new branch]      master -> master
+bash-3.2$ 
