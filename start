@@ -1,0 +1,9 @@
+Script started on Mon Mar 12 21:20:38 2018
+[?1034hbash-3.2$ less 
+Missing filename ("less --help" for help)
+bash-3.2$ ;[K:
+bash-3.2$ 1
+bash: 1: command not found
+bash-3.2$ start
+bash: start: command not found
+bash-3.2$ co[K[K
